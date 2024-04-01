@@ -455,7 +455,7 @@ class pipGuiMain:
 		self.filemenu.add_command(label="About", image=self.about_icon, compound=tkinter.LEFT, command=about)
 		self.filemenu.add_command(label="Check Libraries integrity", image=self.check_icon, compound=tkinter.LEFT, command=pipcheck)
 		self.filemenu.add_command(label="Show info on selected package", image=self.info_icon, compound=tkinter.LEFT, command=pipshow)
-		self.filemenu.add_command(label="Total packages installed", image=self.listicon, compound=tkinter.LEFT, command=calculate_package_statistics)
+		self.filemenu.add_command(label="Total packages installed", image=self.listicon, compound=tkinter.LEFT, command=package_statistics)
 		self.filemenu.add_separator()
 		self.filemenu.add_command(label="Exit", image=self.exit_icon, compound=tkinter.LEFT, command=self.mainwin.destroy)
 		#self.filemenu.config(bg="#272A37", fg="#FFFFFF", activebackground="#525561", activeforeground="#FFFFFF", font=("Arial", 10))
