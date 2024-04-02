@@ -1,10 +1,8 @@
 import tkinter
-from tkinter import ttk
 import subprocess
 import json
 from functools import partial
-from tkinter import simpledialog
-import tkinter.messagebox
+from tkinter import simpledialog, ttk, messagebox 
 import socket
 import os
 import requests
